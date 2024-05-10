@@ -389,7 +389,7 @@ private:
   
 public:
   
-  bool User_input( ) {
+  bool User_input( ) { // 最主要的處理function
     // user_input : ( definition | statement ) { definition | statement }
     
     string tokenType, tokenValue ;
@@ -2320,7 +2320,6 @@ int main() {
   bool keep_going = true ;
   string white_space ;
   
-  // if ( cin.peek() == '2' ) cout << "y\n" ;
   while ( cin.peek() != '\n' ) cin.get() ;
   cin.get() ;
   
